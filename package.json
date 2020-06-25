@@ -1,0 +1,34 @@
+{
+  "name": "node-typeorm-examples",
+  "version": "1.0.0",
+  "description": "Learning TypeORM with Node.js By Examples",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrdulin/node-typeorm-examples.git"
+  },
+  "keywords": [],
+  "author": "mrdulin <novaline.dulin@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrdulin/node-typeorm-examples/issues"
+  },
+  "homepage": "https://github.com/mrdulin/node-typeorm-examples#readme",
+  "dependencies": {
+    "pg": "^8.3.0",
+    "reflect-metadata": "^0.1.10",
+    "typeorm": "0.2.25"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/pg": "^7.14.4",
+    "dotenv": "^8.2.0",
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.6",
+    "ts-node": "^8.10.2"
+  }
+}
