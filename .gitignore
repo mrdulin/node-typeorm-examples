@@ -6,3 +6,4 @@ tmp/
 temp/
 .env*
 db-data/
+.DS_Store
