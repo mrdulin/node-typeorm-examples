@@ -1,7 +1,7 @@
 import 'reflect-metadata';
 import { createConnection, getConnection } from 'typeorm';
 import Build from './entity/Build';
-import { connectionOptions } from '../../connectionOptions';
+import { connectionOptions } from '../../src/connectionOptions';
 
 createConnection({
   ...connectionOptions,
